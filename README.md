@@ -8,7 +8,7 @@ It involves a spark program which retrieves CSV files from S3, performs SQL-styl
 * A SQL database containing multiple tables was first-generated for this program.
 
 ## Mock dataset
-There are 6 tables in the mock electricity company dataset.
+There are 6 CSV tables in the mock electricity company dataset.
 
 1. Accounts
 2. Consumption
