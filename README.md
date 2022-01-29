@@ -20,10 +20,10 @@ There are 6 tables in the mock electricity company dataset.
 ## Script Description
 
 1. S01_generate_mock_data.py
-  a. Script to generate electricity usage data
+    1. Script to generate electricity usage data
 2. S02_push_datasets_to_S3.py
-  a. Script to oush datasets to AWS S3
+    1. Script to oush datasets to AWS S3
 3. S03_spark_queries.py
-  a. Main program which takes "script_control.json" as input and performs SQL queries on input files from AWS S3.
-  b. Resulting files are output to AWS S3. 
-  c. Only one query is performed at a time by the program.
+    1. Main program which takes "script_control.json" as input and performs SQL queries on input files from AWS S3.
+    2. Resulting files are output to AWS S3. 
+    3. Only one query is performed at a time by the program.
