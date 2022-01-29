@@ -1,0 +1,15 @@
+{
+    "s3_bucket": "bucket-123",
+    "input_csv_1": "Consumption.csv",
+    "input_csv_2": "MeterMaster.csv",
+    "operation": "aggregate",
+    "join_var": "MeterID",
+    "filter_var": "MeterID",
+    "filter_var_value": "E201",
+    "aggregate_group_var": "MeterID",
+    "aggregate_summary_var": "Usage",
+    "aggregate_summary_metric": "sum",
+    "output_folder": "output_files",
+    "output_filetype": "parquet", 
+    "output_filename": "total_use_by_meter"
+}
